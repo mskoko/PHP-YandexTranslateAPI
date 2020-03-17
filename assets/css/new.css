@@ -1,0 +1,527 @@
+.logo a #logo_txt {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0071bb;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo a:hover {
+    text-decoration: none;
+}
+
+
+.gt_rght {
+    float: right;
+}
+.c_name {
+    display: block;
+}
+.c_name a i {
+    color: #0071bb!important;
+    margin-right: 0px!important;
+}
+.c_name a {
+    padding: 8px 10px!important;
+    border-radius: 20px!important;
+    text-transform: uppercase!important;
+    font-size: 12px!important;
+    border: 1px solid #0071bb!important;
+    color: #0071bb!important;
+}
+.c_name a:hover {
+    background: #0071bb;
+    color: #fff!important;
+}
+
+/*header {
+	width: 100%;
+	height: 50px;
+
+	background: #0071bb;
+}
+
+
+header nav {
+
+}
+
+header nav .left {
+	float: left;
+}
+header nav .left .logo {
+	padding: 15px;
+}
+
+header nav .right {
+	float: right;
+}
+
+header nav .right li {
+	display: inline-block;
+
+	padding: 10px 50px;
+
+	margin-top: 40px;
+}
+
+header nav .right li a {
+	padding: 10px;
+
+	color: #fff;
+
+	text-decoration: none;
+}*/
+
+.emplLog {
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+.mngLog {
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-logo{
+    position: relative;
+    margin-left: -41.5%;
+}
+.login-logo i {
+    position: absolute;
+    width: 20%;
+    font-size: 50px;
+    margin-top: 40%;
+    background: #0792ec;
+    border-radius: 50%;
+    padding: 5%;
+    color: #fff;
+    margin-left: -20px;
+}
+.login-form-1{
+    padding: 10%;
+    background: #0071bb;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.login-form-1 h3,
+.login-form-2 h3{
+    text-align: center;
+    margin-bottom: 12%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+.login-form-2{
+    padding: 10%;
+    background: #0484d8;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* ON BOARDING */
+.card {
+	border: 1px solid transparent!important;
+}
+.card-header:first-child {
+    border-radius: 2px;
+    background: #0071bb;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+}
+.card-body {
+    padding: 10px 0;
+    margin: 0;
+    text-align: justify;
+    background: transparent!important;
+    border: 1px solid #fff!important;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+/*  */
+.title___ {
+	margin: 15px 0px 10px 0px;
+}
+.special {
+	cursor: pointer;
+}
+.special_title h3 {
+	text-align: center;
+	color: #000;
+
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+}
+.img-special {
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+
+    border-radius: 5px;
+}
+
+.title-special {
+    background: rgba(0, 88, 146, 0.8);
+    color: #fff;
+    font-size: 13px;
+    font-style: normal;
+    position: absolute;
+    width: 91.2%;
+    bottom: 0;
+    padding: 10px;
+	
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.title-special input {
+	border: none;
+	border-radius: 3px;
+	padding: 5px;
+}
+/* MNG change img */
+.change_img input {
+	width: 35px;
+    background: #000;
+    position: absolute;
+    right: 25px;
+    opacity: 0;
+}
+
+.for_post_resource {
+    width: 100%;
+    height: 200px;
+}
+
+/* MNG change video */
+.change_video {
+
+}
+.change_video input {
+    float: left;
+    margin-top: -28px;
+    width: 100%;
+    position: relative;
+    opacity: 0;
+}
+
+/* EVENTs */
+.event-special {
+    background-size: cover;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.event_header___ {
+	margin: 0px
+}
+.event_header h3 {
+	color: #000;
+
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+}
+.event_txt p {
+
+}
+.event_txt i {
+	font-size: 12px;
+}
+.event_txt b {
+	font-size: 13px;
+}
+
+/* TICKET */
+.chat {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body {
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body {
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p {
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon {
+    margin-right: 5px;
+}
+
+.t_p_img img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+/* Diagonal stacked paper effect */
+.paper {
+  background-color: #fff;
+  /* Need position to allow stacking of pseudo-elements */
+  position: relative;
+  /* Padding for demo purposes */
+  padding: 30px;
+}
+
+.paper,
+.paper::before,
+.paper::after {
+  /* Add shadow to distinguish sheets from one another */
+  box-shadow: 2px 1px 1px rgba(0,0,0,0.15);
+}
+
+.paper::before,
+.paper::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+}
+
+/* Second sheet of paper */
+.paper::before {
+  left: 7px;
+  top: 5px;
+  z-index: -1;
+}
+
+/* Third sheet of paper */
+.paper::after {
+  left: 12px;
+  top: 10px;
+  z-index: -2;
+}
+.paper p {
+    /*text-align: justify!important;*/
+}
+
+.document_view ol,
+.document_view ul {
+    margin-left: 50px;
+}
+
+/* TESTS - OBICAN */
+.answers2 {
+
+}
+
+.answers2 li {
+    display: inline-block;
+}
+
+/* TEST */
+.result i {
+    font-size: 150px;
+    color: #0071bb;
+}
+.result h1 i {
+    position: absolute;
+    margin: -100px -11%;
+    color: #fff;
+    font-size: 35px;
+}
+
+/* Activity */
+.Activity {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+        
+    margin-top: -2px;
+    cursor: pointer;
+}
+.Activity:hover {
+    background: #e2e2e2;
+}
+.aName span a {
+    color: #333;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    font-weight: bold;
+
+    font-size: 12px;
+}
+.aName span a span {
+    margin-left: 5px;
+}
+
+.aHR {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
+.scrl_me {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+
+/* Industry NEws */
+.printPostIN {
+    cursor: pointer;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+.printImg {
+    width: 100%;
+    height: 150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.pProfileInfo {
+    margin-top: -40px;
+    padding: 0 15px;
+}
+
+.pOwnerImg {
+    text-align: center;
+}
+.pOwnerImg img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px double #007bff;
+}
+.pOwnerName {
+    float: left;
+    margin-top: -20px;
+}
+.pOwnerName a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	color: #007bff;
+}
+.pOwnerTime {
+    float: right;
+    margin-top: -20px;
+}
+.pText {
+	padding: 0 15px;
+}
+.tags_ {
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* POST VieW */
+.postTextIN {
+    margin-top: 20px;
+    
+    text-align: justify;
+}
+
+.blogShareButton {
+    text-align: center;
+}
+
+.blogShareButton li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+.blogShareButton a {
+    padding: 10px;
+    color: #fff;
+}
+#share-buttons {
+    margin-top: 50px;
+}
+#share-buttons img {
+    width: 40px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+}
+
+.sBox li {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0071bb;
+    border: 1px solid #e2e2e2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sBox li:hover {
+    color: #0071bb;
+
+    border: 1px solid #0071bb;
+    border-radius: 10px;
+}
+.sBox li span {
+    margin-left: 10px;
+}
+
+.sMeni {
+    float: right;
+}
+.sMeni a {
+    margin: 5px;
+}
+
+.s_img_ {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 3px double #0071bb;
+}
+
+.profile_srch_info {
+    float: left;
+}
+.profile_srch_info img {
+    margin-top: -25px;
+}
+.srch_empl_name {
+    position: absolute;
+}
+
+.position_srch {
+    position: relative;
+    font-size: 10px;
+    margin-top: 25px;
+}

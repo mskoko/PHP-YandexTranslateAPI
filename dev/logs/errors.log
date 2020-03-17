@@ -1,0 +1,48 @@
+[04-Feb-2020 03:08:13 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Class 'Upload' not found in C:\xampp\htdocs\includes.php:33
+Stack trace:
+#0 C:\xampp\htdocs\index.php(9): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\includes.php on line 33
+[04-Feb-2020 03:08:20 Europe/Belgrade] PHP Warning:  require_once(C:/xampp/htdocs/core/inc/libs/PHPMailer-master/class.phpmailer.php): failed to open stream: No such file or directory in C:\xampp\htdocs\includes.php on line 36
+[04-Feb-2020 03:08:20 Europe/Belgrade] PHP Fatal error:  require_once(): Failed opening required 'C:/xampp/htdocs/core/inc/libs/PHPMailer-master/class.phpmailer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\includes.php on line 36
+[04-Feb-2020 03:08:31 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined method User::IsLoged() in C:\xampp\htdocs\assets\php\nav.php:25
+Stack trace:
+#0 C:\xampp\htdocs\index.php(47): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\assets\php\nav.php on line 25
+[04-Feb-2020 03:08:45 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to undefined method User::IsLoged() in C:\xampp\htdocs\assets\php\nav.php:25
+Stack trace:
+#0 C:\xampp\htdocs\index.php(47): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\assets\php\nav.php on line 25
+[04-Feb-2020 03:28:01 Europe/Belgrade] PHP Notice:  Undefined variable: Alert in C:\xampp\htdocs\index.php on line 37
+[04-Feb-2020 03:28:01 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to a member function PrintAlert() on null in C:\xampp\htdocs\index.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\index.php on line 37
+[04-Feb-2020 03:47:48 Europe/Belgrade] PHP Notice:  Undefined variable: POS in C:\xampp\htdocs\process.php on line 22
+[04-Feb-2020 03:47:48 Europe/Belgrade] PHP Notice:  Undefined variable: POS in C:\xampp\htdocs\process.php on line 23
+[04-Feb-2020 03:48:00 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=test&amp;lang=-&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\process.php on line 27
+[04-Feb-2020 03:48:17 Europe/Belgrade] PHP Notice:  Undefined variable: POS in C:\xampp\htdocs\index.php on line 21
+[04-Feb-2020 03:48:17 Europe/Belgrade] PHP Notice:  Undefined variable: POS in C:\xampp\htdocs\index.php on line 22
+[04-Feb-2020 03:48:17 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=&amp;lang=-&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:48:24 Europe/Belgrade] PHP Notice:  Undefined variable: POS in C:\xampp\htdocs\index.php on line 21
+[04-Feb-2020 03:48:24 Europe/Belgrade] PHP Notice:  Undefined variable: POS in C:\xampp\htdocs\index.php on line 22
+[04-Feb-2020 03:48:25 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=&amp;lang=-&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:48:42 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:48:52 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=djes+posao&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:49:01 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=djesi+posao&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:49:20 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=djesi+posao&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:50:08 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=djesi+posao&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:51:41 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=djesi+posao&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26
+[04-Feb-2020 03:52:23 Europe/Belgrade] PHP Warning:  file_get_contents(https://translate.yandex.net/api/v1.5/tr.json/translate?key=trnsl.1.1.20200204T015336Z.39dfc2a014820f1b.b5f29019a107912adaca44590895f6be123aabfe&amp;text=djesi+posao&amp;lang=rs-en&amp;format=plain): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in C:\xampp\htdocs\index.php on line 26

@@ -1,0 +1,235 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+
+.rightNav {
+	float: right;
+}
+.rightNav li {
+	display: inline-block;
+	padding: 0px 0px;
+}
+.rightNav li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.login_btn {
+	border: 1px solid #fff;
+	border-radius: 20px;
+}
+.login_btn:hover {
+	border: 1px solid #fff!important;
+    border-radius: 20px!important;
+    background: #fff!important;
+    color: #0071bb!important;
+}
+
+.card .card-body {
+	/*margin: 0;
+	padding: 0;*/
+	text-align: justify;
+}
+
+/* Training modal - popup bug fix */
+.modal-body {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+/* News */
+.g_t_post {
+	cursor: pointer;
+	
+	margin-bottom: 30px;
+}
+
+/* FILE PAGE */
+/* File view */
+.file_view .file_img {
+	width: 100%;
+	height: auto;
+
+	border-radius: 5px;
+}
+.file_view p {
+	text-align: justify;
+}
+.file_view .rar_zip {
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+	/*width: 100%;
+	height: auto;*/
+
+	text-align: center;
+}
+
+.file_stats img {
+	width: 100%;
+	height: auto;
+}
+.file_stats h1 {
+	font-size: 2.5em;
+}
+
+/* File action */
+.f_action {
+
+}
+.f_action li {
+	display: block;
+	padding: 10px;
+}
+.f_action li a {
+	width: 100%;
+}
+
+/* */
+#dropBG {
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#uploadFile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border: 10px double #999;
+    margin: 10px;
+    border-style: dashed;
+    background: rgba(255, 255, 255, 0.92);
+    padding: 10px;
+
+    z-index: 9999;
+}
+
+#uploadText {
+	margin-top: 100px;
+
+	z-index: 99;
+}
+#uploadText h1 {
+	text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+
+    color: #999;
+}
+#uploadText h2 {
+	text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: normal;
+    font-style: italic;
+
+    color: #999;
+}
+.uplodFile {
+	text-align: center;
+}
+
+#upload_status_ {
+	margin-top: 50px;
+}
+#upload_status {
+	border: 1px solid #999;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.pImgAvatar {
+	background: #e2e2e2;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px 0px #e2e2e2;
+}
+
+/* Billten */
+.findResto {
+	padding: 80px 0;
+	/*background: #0071bb;*/
+
+	margin-bottom: 50px;
+}
+.findResto form {
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	z-index: 2; 
+}
+.findResto form h2 {
+	color: #fff;
+	margin-bottom: 40px; 
+}
+.findResto form input {
+	height: 50px;
+	border-color: #ffffff;
+	border-radius: 0;
+	border: 2px solid #0071bb;
+}
+.findResto form input:focus {
+	box-shadow: none;
+	border: 2px solid #28a745;
+}
+.findResto form .btn {
+	min-height: 49.9px; 
+	border-radius: 0;
+	background: #0071bb;
+	color: #fff;
+	font-weight: 600;
+
+	padding: 10px 50px;
+}
+.findResto form .btn:hover {
+	background: #28a745;
+}
+
+.findResto form .btn2 {
+	min-height: 49.9px; 
+	border-radius: 0;
+	background: #28a745;
+	color: #fff;
+	font-weight: 600;
+
+	padding: 10px 50px;
+}
+
+
+
+/* FOOTER */
+footer {
+	margin-top: 100px;
+}
+
+/* Footer links */
+.footerLinks {
+    position: absolute;
+    margin: 30px auto;
+}
+.footerLinks li {
+    display: inline-block;
+}
+.footerLinks li:not(:last-child):after {
+    content: ' •';
+    font-size: 11px;
+}
+.footerLinks li:nth-child(3):after {
+    content: '';
+}
